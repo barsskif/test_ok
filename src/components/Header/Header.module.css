@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Адаптив для мобильных устройств */
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    margin-bottom: 10px;
+    width: fit-content;
+    font-size: 12px;
+  }
+}
